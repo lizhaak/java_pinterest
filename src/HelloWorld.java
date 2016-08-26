@@ -15,6 +15,20 @@ public class HelloWorld {
 		for(int i = 0; i < interests.length; i++) {
 			System.out.println(interests[i]);
 		}
+		
+		if (1 == 0 && 1 == 1) {
+			System.out.println("statement is true");
+		} else if (0 == 0) {
+			System.out.println("this statement is the true statement");
+		} else {
+			System.out.println("statement is false");
+		}
+		
+		// pulling from MyClass.java
+		MyClass mc = new MyClass();
+		System.out.println(mc.myNum);
+		mc.myMethod();
+		
 	}
 	
 	public void exampleMethod(String message) {
