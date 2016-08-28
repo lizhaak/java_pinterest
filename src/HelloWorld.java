@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class HelloWorld {
 
@@ -23,6 +24,15 @@ public class HelloWorld {
 		} else {
 			System.out.println("statement is false");
 		}
+		
+		System.out.println("Enter first number:");
+		Scanner scan = new Scanner(System.in);
+		int num1 = scan.nextInt();
+		
+		System.out.println("Enter second number:");
+		int num2 = scan.nextInt();
+		
+		System.out.println("Sum is " + (num1 + num2));
 		
 		// pulling from MyClass.java
 		MyClass mc = new MyClass();
