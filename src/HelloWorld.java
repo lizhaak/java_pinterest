@@ -1,9 +1,23 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class HelloWorld {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
+		
+		FileReader file = new FileReader("hello");
+		BufferedReader reader = new BufferedReader(file);
+		String data;
+		while((data = reader.readLine()) != null) {
+			System.out.println(data);
+		}
+		reader.close();
+		
+		
 		HelloWorld myReview = new HelloWorld();
 		myReview.exampleMethod("print this out using exampleMethod function");
 		String[] interests = new String[5];
