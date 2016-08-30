@@ -9,13 +9,17 @@ public class HelloWorld {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
-		FileReader file = new FileReader("hello");
-		BufferedReader reader = new BufferedReader(file);
-		String data;
-		while((data = reader.readLine()) != null) {
-			System.out.println(data);
+		try {
+			FileReader file = new FileReader("hello");
+			BufferedReader reader = new BufferedReader(file);
+			String data;
+			while((data = reader.readLine()) != null) {
+				System.out.println(data);
+			}
+			reader.close();
+		} catch(IOException error) {
+			System.out.println(error);
 		}
-		reader.close();
 		
 		
 		HelloWorld myReview = new HelloWorld();
