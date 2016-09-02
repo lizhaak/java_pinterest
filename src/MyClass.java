@@ -7,7 +7,7 @@ public class MyClass {
 	}
 	
 	// public meaning accessible through other classes
-	//void means it doesn't return a value 
+	// void means it doesn't return a value 
 	public void myMethod() {
 		System.out.println("method!");
 	}
