@@ -7,7 +7,14 @@ Currently using Eclipse to code in.
 
 Using Spring to have a user interface website.
 
-To Do List:
-1. Need to figure out how to use Spring to create the front-end
-user experience
-2. Figure out how to use Hibernate for the databases
+Here is my to do list:
+ -- Watching videos by Charles Kelly: https://www.lynda.com/Eclipse-tutorials/Creating-Java-project/111243/118388-4.html
+ -- 0_Documentation
+ -- 1_Samples
+ -- HelloWorldPackages
+1. Learn How to create a little game using java
+2. How to create a front-end website using java
+	a) Need to figure out how to use Spring to create the front-end
+user experience.
+3. Be able to add images to the front end that a user can click on to view more details
+4. Figure out how to use Hibernate for the databases
