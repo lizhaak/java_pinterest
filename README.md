@@ -9,6 +9,7 @@ Using Spring to have a user interface website.
 
 Here is my to do list:
  -- Watching videos by Charles Kelly: https://www.lynda.com/Eclipse-tutorials/Creating-Java-project/111243/118388-4.html
+ 	-- currently learning a test example of Ceaser Cipher
  -- 0_Documentation
  -- 1_Samples
  -- HelloWorldPackages
