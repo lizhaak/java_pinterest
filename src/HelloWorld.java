@@ -8,6 +8,10 @@ public class HelloWorld {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
+		int fuelLevel = 3;
+
+		char canDrive = (fuelLevel > 0) ? 'Y' : 'N';
+		System.out.println(canDrive);
 		
 		// use a function to print out info
 		HelloWorld myReview = new HelloWorld();
@@ -59,6 +63,18 @@ public class HelloWorld {
 	}
 	
 
+	
+
 }
 
+//public class Ternary {
+//	public static void main(String[] args) {
+//		
+//		int fuelLevel = 3;
+//
+//		char canDrive = (fuelLevel > 0) ? 'Y' : 'N';
+//		System.out.println(canDrive);
+//
+//	}
+//}
 
