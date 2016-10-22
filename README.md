@@ -19,4 +19,5 @@ Here is my to do list:
 user experience.
 3. Be able to add images to the front end that a user can click on to view more details
 4. Figure out how to use Hibernate for the databases
-5. Learn how to use Play Framework with Java.
+5. Learn how to use Play Framework with Java. https://www.playframework.com/
+	- Gives a template to converting my solo project to use Java in the back-end.
